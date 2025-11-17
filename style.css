@@ -67,3 +67,67 @@ span {
   color: red;
   text-align: center;
 }
+
+
+
+/* Tablets (768px) */
+@media (max-width: 768px) {
+  .container {
+    width: 350px;
+    padding: 25px;
+  }
+}
+
+/* Mobile Landscape (600px) */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+    height: auto;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 360px;
+  }
+}
+
+/* Mobile Portrait (480px) */
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+    width: 100%;
+    max-width: 330px;
+  }
+
+  input, button {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+/* Small Phones (360px) */
+@media (max-width: 360px) {
+  .container {
+    padding: 15px;
+    max-width: 300px;
+  }
+
+  input, button {
+    padding: 9px;
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
+
+/* Very Small Phones (300px) */
+@media (max-width: 300px) {
+  .container {
+    max-width: 260px;
+  }
+}
